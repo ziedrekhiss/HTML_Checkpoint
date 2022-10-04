@@ -5,41 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HSE & Emergency Response Training</title>
-    <link rel="icon" href="images/Index.png" type="image"/>
+    <link rel="icon" href="images/oil-rig.png" type="image"/>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <nav id="navbar">
-      <a href="index.HTML"> <img src="/images/Index.png" alt="this is an image"></a>
-      <a href="#Home">Home</a> 
-      <a href="#About">About</a>
-      <a href="#Work">Work</a>
-      <a href="#Resume">Resume</a>
-      <a href="#Contact">Contact</a>
+      <a href="index.HTML"> <img src="/images/oil-rig.png" alt="logo"></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#Home">Home</a></li> 
+            <li><a href="#About">About</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
     </nav>
+    <div class="about_me">
+      <h4>Hello, my name is</h4>
+      <h1>Zied <span>REKHISS</span></h1>
+      <h3>i'm a Petroleum engineer and HSE Trainer</h3>
+    </div>
   </header>  
+
   <main>
+
+    <!--Home -->
+
     <section id="Home">
       <h1>Home</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam eligendi, nihil non vitae tempore doloribus perferendis porro necessitatibus dolorem? Commodi aliquid sed iusto dignissimos mollitia architecto, esse a perspiciatis facilis.</p>
     </section>
     <section id="About">
-      <h1>About</h1>
-      <img src="/images/FTM.jpg" alt="photo" width="400">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero eaque animi iste consectetur optio hic vel voluptas, quasi odio, ad corporis quaerat. Maxime voluptate magni cum velit commodi sapiente unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut tenetur illo eaque id iure provident animi corporis maxime, nemo unde repellat neque excepturi. Quisquam repellat mollitia optio quos earum.</p>
+      <img src="/images/FTM.jpg" alt="photo">
+      <div class="about_text">
+        <h1>About</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero eaque animi iste consectetur optio hic vel voluptas, quasi odio, ad corporis quaerat. Maxime voluptate magni cum velit commodi sapiente unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut tenetur illo eaque id iure provident animi corporis maxime, nemo unde repellat neque excepturi. Quisquam repellat mollitia optio quos earum.</p>
+      </div>
     </section>
+
+    <!--work -->
+
     <section id="Work">
-      <h1>Work</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit error facilis suscipit tempore iure necessitatibus quam repellendus. Nisi reiciendis placeat rem quam dignissimos repellendus, explicabo tenetur quos alias, doloremque nesciunt!</p>
-      <img src="/images/jackup.jpg" alt="photo" width="600">
-      <img src="/images/leg.jpg" alt="photo" width="400">
-      <p>
-        <b>this is a video of my work</b>
-      </p>
+      <div class="Work_content">
+        <h1>Work</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit error facilis suscipit tempore iure necessitatibus quam repellendus. Nisi reiciendis placeat rem quam dignissimos repellendus, explicabo tenetur quos alias, doloremque nesciunt!</p>
+        <p>
+          <span>Watch Video</span>
+        </p>
         <video width="320" height="240" controls>
           <source src="/images/boat_trasfert.mp4" type="video/mp4" />
         </video>
+      </div>
+      <div class="Work_Photos">
+        <img src="/images/jackup.jpg" alt="photo" width="600">
+        <img src="/images/leg.jpg" alt="photo" width="400">
+      </div>
     </section>
+
+    <!--Resume -->
+
     <section id="Resume">
       <h1>Resume</h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla explicabo, aliquid doloribus eaque accusantium necessitatibus at maxime assumenda reprehenderit mollitia, voluptates, nisi quia? Necessitatibus amet dolorum numquam eaque incidunt ducimus?</p>
@@ -50,23 +77,29 @@
         <li>Petroleum engineering</li>
       </ul>
     </section>
+
+    <!--Contact -->
+
     <section id="Contact">
       <h1>contact</h1>
-      <a href= "mailto: ziedrekhiss@gmail.com"> <img src="/images/Gmail.png" alt="This is my Emai"></a>
-      <a href= "tel:+21658624925"> <img src="/images/Phone.png" alt="call me"></a>
-      <a href= "https://www.linkedin.com/in/zied-rekhiss-610a5883/"> <img src="/images/linkedin.png" alt="Linkedin Profile"></a>
-      <p><b>For Further informations please submit your request here</b></p>
+      <div class="contact_ref">
+        <a href= "tel:+21658624925"> <img src="/images/Phone.png" alt="call me"></a>
+        <a href= "mailto: ziedrekhiss@gmail.com"> <img src="/images/Gmail.png" alt="This is my Emai"></a>
+        <a href= "https://www.linkedin.com/in/zied-rekhiss-610a5883/"> <img src="/images/linkedin.png" alt="Linkedin Profile"></a>
+      </div>
+      <p>For Further informations please submit your request here</p>
       <textarea name="message" cols="30" rows="5">
         text me here
-    </textarea>
-    <form>
+      </textarea>
+      <form>
       <button type="submit">Submit request</button>
-    </form>
+      </form>
     </section>
   </main>
+
   <footer>
-    <p><center><b>____________________Copyright © 2022 Zied REKHISS____________________</b></center></p>
-    <center><a href=#navbar>Top of Page</a></center>
+    <p>____________________Copyright © 2022 Zied REKHISS____________________</p>
+    <a href=#navbar>Top of Page</a>
   </footer>
 </body>
 </html>
